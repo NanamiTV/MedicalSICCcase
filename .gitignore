@@ -1,10 +1,37 @@
-node_modules/
-types/
+ # C# build artifacts
+ csharp/bin/
+ csharp/obj/
+ src/bin/
+ src/obj/
+
+ # Diagnostics output
+ csharp/diagnostics/
+ diagnostics/
+
+ # IDE / editor
+ .vs/
+ *.user
+ *.suo
+ *.userprefs
+ .idea/
+
+ # Logs / temp
+ *.log
+ *.tmp
+ ~*
+ *.bak
+
+ # OS files
+ Thumbs.db
+ .DS_Store
+
+ # Generated static web assets (safe to ignore if present)
+ **/scopedcss/
+ **/staticwebassets.build.json
+ **/staticwebassets.build.json.cache
+ **/staticwebassets.development.json
+
+# Distribution output
 dist/
-.buildignore
-.eslintignore
-.eslintrc.json
-build.mjs
-tsconfig.json
-mod.code-workspace
-package-lock.json
+src/bin
+src/obj
