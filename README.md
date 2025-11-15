@@ -76,7 +76,7 @@ Place `MedicalSICCcase` as a child folder under the appropriate `mods` directory
 The mod reads `config/config.json` at runtime (next to the DLL). See Configure section for details.
 
 ## Notes
-- Requires SPTarkov packages 4.0.X.
+- Requires SPTarkov packages 4.0.3.
 
 ## Troubleshooting
 - If item not visible: check server logs for Medical SICC case load messages.
